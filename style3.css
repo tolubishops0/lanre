@@ -1,0 +1,37 @@
+body {
+  font-size: 18px;
+  font-weight: 300;
+  width: inherit;
+}
+section {
+  margin: 20px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: orange;
+}
+h4 {
+  text-align: center;
+}
+.we {
+  background-color: #ddd;
+}
+.section-container {
+  height: 150px;
+  width: 100%;
+}
+.float-item {
+  float: right;
+  width: 30%;
+}
+.core-value {
+  background-color: #ddd;
+}
+.free {
+  text-align: left;
+}
+.contact {
+  width: auto;
+  margin: auto;
+}

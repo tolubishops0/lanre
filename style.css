@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+html body {
+  width: 100%;
+}
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+/*header section*/
+.brand {
+  margin-left: 0;
+  width: 20%;
+}
+header {
+  margin: 20px;
+  background-color: rgb(32, 107, 32);
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.link {
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.right-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 10px;
+  padding: 20px;
+}
+.link:hover {
+  background-color: rgb(32, 107, 32);
+}
+.link:hover a {
+  color: rgb(228, 109, 54);
+}
+ul {
+  background-color: rgba(3, 3, 3, 0.8);
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li {
+  list-style: none;
+}
+/* Body section */
+
+.book {
+  margin-top: 10px;
+  text-align: center;
+  color: green;
+}
+.btn-link {
+  color: #fff;
+  background-color: orange;
+  text-decoration: none;
+}
+.btn-link a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-link:hover a {
+  color: green;
+}
+.carousel-caption {
+  color: orange;
+  background-color: rgba(212, 209, 209, 0.2);
+}
+.carousel-caption h5,
+p {
+  color: black;
+}
+footer {
+  text-align: center;
+  font-weight: 200;
+  color: black;
+}
